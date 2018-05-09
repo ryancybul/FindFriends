@@ -1,0 +1,24 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "Full stack site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancybul/FindFriends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryancybul/FindFriends/issues"
+  },
+  "homepage": "https://github.com/ryancybul/FindFriends#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
