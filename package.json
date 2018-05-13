@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friend-finder",
   "version": "1.0.0",
   "description": "Full stack site",
   "main": "server.js",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/ryancybul/FindFriends#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
   }
 }
