@@ -6,9 +6,10 @@
     <title>Survey Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
-    <script src="main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 <body>
     <div class='container'>
@@ -25,7 +26,7 @@
         <!--Questions-->
         <h3>Question 1</h3>
         <h4>You have a love for donuts.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q1">
+        <select data-placeholder="" class="chosen-select" id="q1">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -36,7 +37,7 @@
 
         <h3>Question 2</h3>
         <h4>You like to skateboard.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q2">
+        <select data-placeholder="" class="chosen-select" id="q2">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -47,7 +48,7 @@
 
         <h3>Question 3</h3>
         <h4>You like to drink Duff beer.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q3">
+        <select data-placeholder="" class="chosen-select" id="q3">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -58,7 +59,7 @@
 
         <h3>Question 4</h3>
         <h4>You love to play music.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q4">
+        <select data-placeholder="" class="chosen-select" id="q4">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -69,7 +70,7 @@
 
         <h3>Question 5</h3>
         <h4>You like to go fishing. </h4>
-        <select data-placeholder="" class="chosen-select" id="Q5">
+        <select data-placeholder="" class="chosen-select" id="q5">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -80,7 +81,7 @@
 
         <h3>Question 6</h3>
         <h4>You like comic books.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q6">
+        <select data-placeholder="" class="chosen-select" id="q6">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -91,7 +92,7 @@
 
         <h3>Question 7</h3>
         <h4>You like Squishies.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q7">
+        <select data-placeholder="" class="chosen-select" id="q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -102,7 +103,7 @@
 
         <h3>Question 8</h3>
         <h4>You like fishing.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q8">
+        <select data-placeholder="" class="chosen-select" id="q8">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -113,7 +114,7 @@
 
         <h3>Question 9</h3>
         <h4>You disklike Ned Flanders.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q9">
+        <select data-placeholder="" class="chosen-select" id="q9">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -124,7 +125,7 @@
 
         <h3>Question 10</h3>
         <h4>You like nuclear power.</h4>
-        <select data-placeholder="" class="chosen-select" id="Q10">
+        <select data-placeholder="" class="chosen-select" id="q10">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -134,8 +135,16 @@
           </select>
     </div>
 
-     <!-- Quiz Submit Button -->
-     <button id="submitButton" type="submit" class="btn btn-md btn-primary btn-block"><h4>Submit</h4></button> 
+     <!--Submit Button -->
+     <button id="submit" type="submit" class="btn btn-md btn-primary btn-block"><h4>Submit</h4></button> 
+
+    <!--Footer -->
+    <footer class="footer">
+    <p><a href="/api/friends">API Friends List</a> | <a href="https://ryancybul.github.io/FriendFinder/" target="_blank">GitHub Repo</a> | <a href="/">Home</a></p>
+    </footer> 
+
+    <!--Send the form information to the server-->
+    <!--Validate that the form is filled out-->
 
 </body>
 </html>

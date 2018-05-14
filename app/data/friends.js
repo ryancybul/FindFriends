@@ -1,5 +1,6 @@
 //Data
-var friendArray = [{
+var friendArray = [
+{
     name: "Homer Simpson",
     photo: "https://lh3.googleusercontent.com/-G1QYz6rVR64/Vx9xNNYX9tI/AAAAAAAAAWM/uhrGksIPREwg2Eogp5W75ySxn510gS7rQ/w1060-h596-n-rw/homer1.jpg",
     scores: [1, 3, 5, 3, 1, 1, 5, 4, 3, 2]
