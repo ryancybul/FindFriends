@@ -21,17 +21,17 @@ var friendArray = [
 },
 {
     name: "Comic Book Guy",
-    photo: "https://vignette.wikia.nocookie.net/simpsons/images/a/a2/IMG_6115.png/revision/latest?cb=20161030093320"
+    photo: "https://vignette.wikia.nocookie.net/simpsons/images/a/a2/IMG_6115.png/revision/latest?cb=20161030093320",
     scores: [1, 1, 1, 1, 1, 5, 2, 5, 1, 1]
 },
 {
     name: "Horatio McCallister",
-    photo: "https://vignette.wikia.nocookie.net/simpsons/images/5/5e/Horatio_McCallister.png/revision/latest?cb=20130920050256"
+    photo: "https://vignette.wikia.nocookie.net/simpsons/images/5/5e/Horatio_McCallister.png/revision/latest?cb=20130920050256",
     scores: [1, 1, 1, 1, 5, 1, 1, 1, 1, 1]
 },
 {
     name: "Mr Burns",
-    photo: "https://vignette.wikia.nocookie.net/simpsons/images/6/6a/Mr_Burns_evil.gif/revision/latest?cb=20100702150413"
+    photo: "https://vignette.wikia.nocookie.net/simpsons/images/6/6a/Mr_Burns_evil.gif/revision/latest?cb=20100702150413",
     scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 5]
 }
 ];
