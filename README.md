@@ -1,2 +1,3 @@
 # FindFriends
-Full stack site 
+
+## This project is still under construction. 
